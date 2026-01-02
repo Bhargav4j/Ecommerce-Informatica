@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Web/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Web/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.EcommerceApp.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.EcommerceApp.Web.props",
+      "PackagePath": "build\\EcommerceApp.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.EcommerceApp.Web.props",
+      "PackagePath": "buildMultiTargeting\\EcommerceApp.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.EcommerceApp.Web.props",
+      "PackagePath": "buildTransitive\\EcommerceApp.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

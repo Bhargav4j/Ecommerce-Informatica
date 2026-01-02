@@ -1,0 +1,16 @@
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/EcommerceApp.Application.deps.json
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/EcommerceApp.Application.dll
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/EcommerceApp.Application.pdb
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/EcommerceApp.Domain.dll
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/EcommerceApp.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/Ecommerc.93288879.Up2Date
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.dll
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/refint/EcommerceApp.Application.dll
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.pdb
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/ref/EcommerceApp.Application.dll

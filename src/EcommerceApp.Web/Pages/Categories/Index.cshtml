@@ -1,0 +1,39 @@
+@page
+@model EcommerceApp.Web.Pages.Categories.IndexModel
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<h1>Categories</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Categories)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@(item.IsActive ? "Active" : "Inactive")</td>
+                <td>
+                    <a asp-page="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                    <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

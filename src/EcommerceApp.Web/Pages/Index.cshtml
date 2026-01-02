@@ -1,0 +1,40 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to EcommerceApp</h1>
+    <p>Modern e-commerce application built with ASP.NET Core 8 and Razor Pages.</p>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Products</h5>
+                    <p class="card-text">Browse and manage products in our catalog.</p>
+                    <a asp-page="/Products/Index" class="btn btn-primary">View Products</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Categories</h5>
+                    <p class="card-text">Organize products by categories.</p>
+                    <a asp-page="/Categories/Index" class="btn btn-primary">View Categories</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">About</h5>
+                    <p class="card-text">Learn more about our e-commerce platform.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

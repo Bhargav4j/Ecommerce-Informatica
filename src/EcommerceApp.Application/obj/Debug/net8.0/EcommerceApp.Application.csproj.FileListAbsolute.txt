@@ -14,3 +14,8 @@
 /modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/refint/EcommerceApp.Application.dll
 /modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/EcommerceApp.Application.pdb
 /modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/obj/Debug/net8.0/ref/EcommerceApp.Application.dll
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/EcommerceApp.Domain.deps.json
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/EcommerceApp.Domain.runtimeconfig.json
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/xunit.runner.reporters.netcoreapp10.dll
+/modernize-data/studio-data/TNT1001/APP2719/transformed-code/858/studio-workspace/Ecommerce-component/src/EcommerceApp.Application/bin/Debug/net8.0/xunit.runner.utility.netcoreapp10.dll

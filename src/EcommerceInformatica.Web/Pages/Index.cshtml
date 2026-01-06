@@ -1,0 +1,45 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to E-commerce Informatica</h1>
+    <p class="lead">Your source for computer hardware and accessories</p>
+
+    <div class="mt-5">
+        <a asp-page="/Products/Index" class="btn btn-primary btn-lg">Browse Products</a>
+        @if (HttpContext.Session.GetString("UserId") == null)
+        {
+            <a asp-page="/Account/Register" class="btn btn-success btn-lg">Register Now</a>
+        }
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Wide Selection</h5>
+                <p class="card-text">Browse through our extensive catalog of computer hardware, peripherals, and accessories.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Quality Products</h5>
+                <p class="card-text">All products from trusted brands with warranty and quality guarantees.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Fast Delivery</h5>
+                <p class="card-text">Quick and reliable shipping to get your products to you as soon as possible.</p>
+            </div>
+        </div>
+    </div>
+</div>

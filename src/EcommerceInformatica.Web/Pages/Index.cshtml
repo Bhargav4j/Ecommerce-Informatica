@@ -1,0 +1,14 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to E-Commerce Informatica</h1>
+    <p>Migrated from ASP.NET Web Forms to .NET 8 with clean architecture.</p>
+    <div class="mt-4">
+        <a class="btn btn-primary btn-lg" asp-page="/Products/Index">Browse Products</a>
+        <a class="btn btn-secondary btn-lg" asp-page="/Account/Login">Login</a>
+    </div>
+</div>

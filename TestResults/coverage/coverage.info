@@ -1,0 +1,1712 @@
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/Brand.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.Brand::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Brand::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Domain.Entities.Brand::get_Name()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Brand::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Domain.Entities.Brand::get_Description()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Brand::get_Description()
+DA:10,0
+FN:10,System.Boolean EcommerceInformatica.Domain.Entities.Brand::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.Brand::get_IsActive()
+DA:11,0
+FN:11,System.DateTime EcommerceInformatica.Domain.Entities.Brand::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.Brand::get_CreatedDate()
+DA:12,0
+FN:12,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Brand::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Brand::get_ModifiedDate()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Domain.Entities.Brand::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Brand::get_CreatedBy()
+DA:14,0
+FN:14,System.String EcommerceInformatica.Domain.Entities.Brand::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Brand::get_ModifiedBy()
+DA:15,0
+FN:17,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Product> EcommerceInformatica.Domain.Entities.Brand::get_Products()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Product> EcommerceInformatica.Domain.Entities.Brand::get_Products()
+DA:18,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/Category.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.Category::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Category::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Domain.Entities.Category::get_Name()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Category::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Domain.Entities.Category::get_Description()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Category::get_Description()
+DA:10,0
+FN:10,System.Boolean EcommerceInformatica.Domain.Entities.Category::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.Category::get_IsActive()
+DA:11,0
+FN:11,System.DateTime EcommerceInformatica.Domain.Entities.Category::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.Category::get_CreatedDate()
+DA:12,0
+FN:12,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Category::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Category::get_ModifiedDate()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Domain.Entities.Category::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Category::get_CreatedBy()
+DA:14,0
+FN:14,System.String EcommerceInformatica.Domain.Entities.Category::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Category::get_ModifiedBy()
+DA:15,0
+FN:17,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Product> EcommerceInformatica.Domain.Entities.Category::get_Products()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Product> EcommerceInformatica.Domain.Entities.Category::get_Products()
+DA:18,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/City.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.City::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.City::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Domain.Entities.City::get_Name()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.City::get_Name()
+DA:9,0
+FN:9,System.Boolean EcommerceInformatica.Domain.Entities.City::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.City::get_IsActive()
+DA:10,0
+FN:10,System.DateTime EcommerceInformatica.Domain.Entities.City::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.City::get_CreatedDate()
+DA:11,0
+FN:11,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.City::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.City::get_ModifiedDate()
+DA:12,0
+FN:12,System.String EcommerceInformatica.Domain.Entities.City::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.City::get_CreatedBy()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Domain.Entities.City::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.City::get_ModifiedBy()
+DA:14,0
+FN:16,System.Int32 EcommerceInformatica.Domain.Entities.City::get_ProvinceId()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.City::get_ProvinceId()
+DA:17,0
+FN:19,EcommerceInformatica.Domain.Entities.Province EcommerceInformatica.Domain.Entities.City::get_Province()
+FNDA:0,EcommerceInformatica.Domain.Entities.Province EcommerceInformatica.Domain.Entities.City::get_Province()
+DA:20,0
+FN:20,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Person> EcommerceInformatica.Domain.Entities.City::get_Persons()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Person> EcommerceInformatica.Domain.Entities.City::get_Persons()
+DA:21,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:10
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/Invoice.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.Invoice::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Invoice::get_Id()
+DA:8,0
+FN:8,System.DateTime EcommerceInformatica.Domain.Entities.Invoice::get_InvoiceDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.Invoice::get_InvoiceDate()
+DA:9,0
+FN:9,System.Decimal EcommerceInformatica.Domain.Entities.Invoice::get_TotalAmount()
+FNDA:0,System.Decimal EcommerceInformatica.Domain.Entities.Invoice::get_TotalAmount()
+DA:10,0
+FN:10,System.Boolean EcommerceInformatica.Domain.Entities.Invoice::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.Invoice::get_IsActive()
+DA:11,0
+FN:11,System.DateTime EcommerceInformatica.Domain.Entities.Invoice::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.Invoice::get_CreatedDate()
+DA:12,0
+FN:12,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Invoice::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Invoice::get_ModifiedDate()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Domain.Entities.Invoice::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Invoice::get_CreatedBy()
+DA:14,0
+FN:14,System.String EcommerceInformatica.Domain.Entities.Invoice::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Invoice::get_ModifiedBy()
+DA:15,0
+FN:17,System.Int32 EcommerceInformatica.Domain.Entities.Invoice::get_PersonId()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Invoice::get_PersonId()
+DA:18,0
+FN:18,System.Int32 EcommerceInformatica.Domain.Entities.Invoice::get_PaymentMethodId()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Invoice::get_PaymentMethodId()
+DA:19,0
+FN:21,EcommerceInformatica.Domain.Entities.Person EcommerceInformatica.Domain.Entities.Invoice::get_Person()
+FNDA:0,EcommerceInformatica.Domain.Entities.Person EcommerceInformatica.Domain.Entities.Invoice::get_Person()
+DA:22,0
+FN:22,EcommerceInformatica.Domain.Entities.PaymentMethod EcommerceInformatica.Domain.Entities.Invoice::get_PaymentMethod()
+FNDA:0,EcommerceInformatica.Domain.Entities.PaymentMethod EcommerceInformatica.Domain.Entities.Invoice::get_PaymentMethod()
+DA:23,0
+FN:23,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.InvoiceDetail> EcommerceInformatica.Domain.Entities.Invoice::get_InvoiceDetails()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.InvoiceDetail> EcommerceInformatica.Domain.Entities.Invoice::get_InvoiceDetails()
+DA:24,0
+LF:13
+LH:0
+BRF:0
+BRH:0
+FNF:13
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/InvoiceDetail.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Id()
+DA:8,0
+FN:8,System.Int32 EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Quantity()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Quantity()
+DA:9,0
+FN:9,System.Decimal EcommerceInformatica.Domain.Entities.InvoiceDetail::get_UnitPrice()
+FNDA:0,System.Decimal EcommerceInformatica.Domain.Entities.InvoiceDetail::get_UnitPrice()
+DA:10,0
+FN:10,System.Decimal EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Subtotal()
+FNDA:0,System.Decimal EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Subtotal()
+DA:11,0
+FN:11,System.Boolean EcommerceInformatica.Domain.Entities.InvoiceDetail::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.InvoiceDetail::get_IsActive()
+DA:12,0
+FN:12,System.DateTime EcommerceInformatica.Domain.Entities.InvoiceDetail::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.InvoiceDetail::get_CreatedDate()
+DA:13,0
+FN:13,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.InvoiceDetail::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.InvoiceDetail::get_ModifiedDate()
+DA:14,0
+FN:14,System.String EcommerceInformatica.Domain.Entities.InvoiceDetail::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.InvoiceDetail::get_CreatedBy()
+DA:15,0
+FN:15,System.String EcommerceInformatica.Domain.Entities.InvoiceDetail::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.InvoiceDetail::get_ModifiedBy()
+DA:16,0
+FN:18,System.Int32 EcommerceInformatica.Domain.Entities.InvoiceDetail::get_InvoiceId()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.InvoiceDetail::get_InvoiceId()
+DA:19,0
+FN:19,System.Int32 EcommerceInformatica.Domain.Entities.InvoiceDetail::get_ProductId()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.InvoiceDetail::get_ProductId()
+DA:20,0
+FN:22,EcommerceInformatica.Domain.Entities.Invoice EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Invoice()
+FNDA:0,EcommerceInformatica.Domain.Entities.Invoice EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Invoice()
+DA:23,0
+FN:23,EcommerceInformatica.Domain.Entities.Product EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Product()
+FNDA:0,EcommerceInformatica.Domain.Entities.Product EcommerceInformatica.Domain.Entities.InvoiceDetail::get_Product()
+DA:24,0
+LF:13
+LH:0
+BRF:0
+BRH:0
+FNF:13
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/PaymentMethod.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.PaymentMethod::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.PaymentMethod::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Domain.Entities.PaymentMethod::get_Name()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.PaymentMethod::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Domain.Entities.PaymentMethod::get_Description()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.PaymentMethod::get_Description()
+DA:10,0
+FN:10,System.Boolean EcommerceInformatica.Domain.Entities.PaymentMethod::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.PaymentMethod::get_IsActive()
+DA:11,0
+FN:11,System.DateTime EcommerceInformatica.Domain.Entities.PaymentMethod::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.PaymentMethod::get_CreatedDate()
+DA:12,0
+FN:12,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.PaymentMethod::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.PaymentMethod::get_ModifiedDate()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Domain.Entities.PaymentMethod::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.PaymentMethod::get_CreatedBy()
+DA:14,0
+FN:14,System.String EcommerceInformatica.Domain.Entities.PaymentMethod::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.PaymentMethod::get_ModifiedBy()
+DA:15,0
+FN:17,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Invoice> EcommerceInformatica.Domain.Entities.PaymentMethod::get_Invoices()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Invoice> EcommerceInformatica.Domain.Entities.PaymentMethod::get_Invoices()
+DA:18,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/Person.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.Person::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Person::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Domain.Entities.Person::get_Dni()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Person::get_Dni()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Domain.Entities.Person::get_Name()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Person::get_Name()
+DA:10,0
+FN:10,System.String EcommerceInformatica.Domain.Entities.Person::get_Email()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Person::get_Email()
+DA:11,0
+FN:11,System.String EcommerceInformatica.Domain.Entities.Person::get_Phone()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Person::get_Phone()
+DA:12,0
+FN:12,System.String EcommerceInformatica.Domain.Entities.Person::get_Address()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Person::get_Address()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Domain.Entities.Person::get_Password()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Person::get_Password()
+DA:14,0
+FN:14,System.Boolean EcommerceInformatica.Domain.Entities.Person::get_IsAdmin()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.Person::get_IsAdmin()
+DA:15,0
+FN:15,System.Boolean EcommerceInformatica.Domain.Entities.Person::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.Person::get_IsActive()
+DA:16,0
+FN:16,System.DateTime EcommerceInformatica.Domain.Entities.Person::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.Person::get_CreatedDate()
+DA:17,0
+FN:17,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Person::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Person::get_ModifiedDate()
+DA:18,0
+FN:18,System.String EcommerceInformatica.Domain.Entities.Person::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Person::get_CreatedBy()
+DA:19,0
+FN:19,System.String EcommerceInformatica.Domain.Entities.Person::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Person::get_ModifiedBy()
+DA:20,0
+FN:22,System.Nullable`1<System.Int32> EcommerceInformatica.Domain.Entities.Person::get_CityId()
+FNDA:0,System.Nullable`1<System.Int32> EcommerceInformatica.Domain.Entities.Person::get_CityId()
+DA:23,0
+FN:23,System.Nullable`1<System.Int32> EcommerceInformatica.Domain.Entities.Person::get_ProvinceId()
+FNDA:0,System.Nullable`1<System.Int32> EcommerceInformatica.Domain.Entities.Person::get_ProvinceId()
+DA:24,0
+FN:26,EcommerceInformatica.Domain.Entities.City EcommerceInformatica.Domain.Entities.Person::get_City()
+FNDA:0,EcommerceInformatica.Domain.Entities.City EcommerceInformatica.Domain.Entities.Person::get_City()
+DA:27,0
+FN:27,EcommerceInformatica.Domain.Entities.Province EcommerceInformatica.Domain.Entities.Person::get_Province()
+FNDA:0,EcommerceInformatica.Domain.Entities.Province EcommerceInformatica.Domain.Entities.Person::get_Province()
+DA:28,0
+FN:28,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Invoice> EcommerceInformatica.Domain.Entities.Person::get_Invoices()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Invoice> EcommerceInformatica.Domain.Entities.Person::get_Invoices()
+DA:29,0
+LF:18
+LH:0
+BRF:0
+BRH:0
+FNF:18
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/Product.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Domain.Entities.Product::get_Name()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Product::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Domain.Entities.Product::get_Description()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Product::get_Description()
+DA:10,0
+FN:10,System.Decimal EcommerceInformatica.Domain.Entities.Product::get_UnitPrice()
+FNDA:0,System.Decimal EcommerceInformatica.Domain.Entities.Product::get_UnitPrice()
+DA:11,0
+FN:11,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_Stock()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_Stock()
+DA:12,0
+FN:12,System.Boolean EcommerceInformatica.Domain.Entities.Product::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.Product::get_IsActive()
+DA:13,0
+FN:13,System.DateTime EcommerceInformatica.Domain.Entities.Product::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.Product::get_CreatedDate()
+DA:14,0
+FN:14,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Product::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Product::get_ModifiedDate()
+DA:15,0
+FN:15,System.String EcommerceInformatica.Domain.Entities.Product::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Product::get_CreatedBy()
+DA:16,0
+FN:16,System.String EcommerceInformatica.Domain.Entities.Product::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Product::get_ModifiedBy()
+DA:17,0
+FN:19,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_CategoryId()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_CategoryId()
+DA:20,0
+FN:20,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_BrandId()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_BrandId()
+DA:21,0
+FN:21,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_SupplierId()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Product::get_SupplierId()
+DA:22,0
+FN:24,EcommerceInformatica.Domain.Entities.Category EcommerceInformatica.Domain.Entities.Product::get_Category()
+FNDA:0,EcommerceInformatica.Domain.Entities.Category EcommerceInformatica.Domain.Entities.Product::get_Category()
+DA:25,0
+FN:25,EcommerceInformatica.Domain.Entities.Brand EcommerceInformatica.Domain.Entities.Product::get_Brand()
+FNDA:0,EcommerceInformatica.Domain.Entities.Brand EcommerceInformatica.Domain.Entities.Product::get_Brand()
+DA:26,0
+FN:26,EcommerceInformatica.Domain.Entities.Supplier EcommerceInformatica.Domain.Entities.Product::get_Supplier()
+FNDA:0,EcommerceInformatica.Domain.Entities.Supplier EcommerceInformatica.Domain.Entities.Product::get_Supplier()
+DA:27,0
+FN:27,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.InvoiceDetail> EcommerceInformatica.Domain.Entities.Product::get_InvoiceDetails()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.InvoiceDetail> EcommerceInformatica.Domain.Entities.Product::get_InvoiceDetails()
+DA:28,0
+LF:17
+LH:0
+BRF:0
+BRH:0
+FNF:17
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/Province.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.Province::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Province::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Domain.Entities.Province::get_Name()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Province::get_Name()
+DA:9,0
+FN:9,System.Boolean EcommerceInformatica.Domain.Entities.Province::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.Province::get_IsActive()
+DA:10,0
+FN:10,System.DateTime EcommerceInformatica.Domain.Entities.Province::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.Province::get_CreatedDate()
+DA:11,0
+FN:11,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Province::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Province::get_ModifiedDate()
+DA:12,0
+FN:12,System.String EcommerceInformatica.Domain.Entities.Province::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Province::get_CreatedBy()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Domain.Entities.Province::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Province::get_ModifiedBy()
+DA:14,0
+FN:16,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.City> EcommerceInformatica.Domain.Entities.Province::get_Cities()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.City> EcommerceInformatica.Domain.Entities.Province::get_Cities()
+DA:17,0
+FN:17,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Person> EcommerceInformatica.Domain.Entities.Province::get_Persons()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Person> EcommerceInformatica.Domain.Entities.Province::get_Persons()
+DA:18,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/Supplier.cs
+FN:7,System.Int32 EcommerceInformatica.Domain.Entities.Supplier::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Domain.Entities.Supplier::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Name()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Email()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Email()
+DA:10,0
+FN:10,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Phone()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Phone()
+DA:11,0
+FN:11,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Address()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Address()
+DA:12,0
+FN:12,System.String EcommerceInformatica.Domain.Entities.Supplier::get_City()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Supplier::get_City()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Province()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Supplier::get_Province()
+DA:14,0
+FN:14,System.Boolean EcommerceInformatica.Domain.Entities.Supplier::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Domain.Entities.Supplier::get_IsActive()
+DA:15,0
+FN:15,System.DateTime EcommerceInformatica.Domain.Entities.Supplier::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Domain.Entities.Supplier::get_CreatedDate()
+DA:16,0
+FN:16,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Supplier::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> EcommerceInformatica.Domain.Entities.Supplier::get_ModifiedDate()
+DA:17,0
+FN:17,System.String EcommerceInformatica.Domain.Entities.Supplier::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Supplier::get_CreatedBy()
+DA:18,0
+FN:18,System.String EcommerceInformatica.Domain.Entities.Supplier::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Domain.Entities.Supplier::get_ModifiedBy()
+DA:19,0
+FN:21,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Product> EcommerceInformatica.Domain.Entities.Supplier::get_Products()
+FNDA:0,System.Collections.Generic.ICollection`1<EcommerceInformatica.Domain.Entities.Product> EcommerceInformatica.Domain.Entities.Supplier::get_Products()
+DA:22,0
+LF:13
+LH:0
+BRF:0
+BRH:0
+FNF:13
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Infrastructure/Repositories/CategoryRepository.cs
+FN:16,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository::.ctor(EcommerceInformatica.Infrastructure.Data.EcommerceDbContext,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Infrastructure.Repositories.CategoryRepository>)
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository::.ctor(EcommerceInformatica.Infrastructure.Data.EcommerceDbContext,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Infrastructure.Repositories.CategoryRepository>)
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+FN:55,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<AddAsync>d__5::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<AddAsync>d__5::MoveNext()
+DA:56,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:68,0
+FN:84,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<DeleteAsync>d__7::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<DeleteAsync>d__7::MoveNext()
+DA:85,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:100,0
+BRDA:89,213,0,0
+BRDA:89,213,1,0
+FN:102,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<ExistsAsync>d__8::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<ExistsAsync>d__8::MoveNext()
+DA:103,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+FN:23,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<GetAllAsync>d__3::MoveNext()
+DA:24,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:38,0
+FN:40,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<GetByIdAsync>d__4::MoveNext()
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:53,0
+FN:116,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<SearchAsync>d__9::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<SearchAsync>d__9::MoveNext()
+DA:117,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:132,0
+FN:70,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<UpdateAsync>d__6::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.CategoryRepository/<UpdateAsync>d__6::MoveNext()
+DA:71,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:82,0
+LF:83
+LH:0
+BRF:2
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Infrastructure/Repositories/ProductRepository.cs
+FN:16,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository::.ctor(EcommerceInformatica.Infrastructure.Data.EcommerceDbContext,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Infrastructure.Repositories.ProductRepository>)
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository::.ctor(EcommerceInformatica.Infrastructure.Data.EcommerceDbContext,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Infrastructure.Repositories.ProductRepository>)
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+FN:61,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<AddAsync>d__5::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<AddAsync>d__5::MoveNext()
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:74,0
+FN:90,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<DeleteAsync>d__7::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<DeleteAsync>d__7::MoveNext()
+DA:91,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:106,0
+BRDA:95,213,0,0
+BRDA:95,213,1,0
+FN:108,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<ExistsAsync>d__8::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<ExistsAsync>d__8::MoveNext()
+DA:109,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:120,0
+FN:23,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<GetAllAsync>d__3::MoveNext()
+DA:24,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:41,0
+FN:143,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<GetByCategoryAsync>d__10::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<GetByCategoryAsync>d__10::MoveNext()
+DA:144,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:161,0
+FN:43,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<GetByIdAsync>d__4::MoveNext()
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,0
+FN:122,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<SearchAsync>d__9::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<SearchAsync>d__9::MoveNext()
+DA:123,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:141,0
+FN:76,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<UpdateAsync>d__6::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Repositories.ProductRepository/<UpdateAsync>d__6::MoveNext()
+DA:77,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:88,0
+LF:107
+LH:0
+BRF:2
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Infrastructure/Extensions/ServiceCollectionExtensions.cs
+FN:17,Microsoft.Extensions.DependencyInjection.IServiceCollection EcommerceInformatica.Infrastructure.Extensions.ServiceCollectionExtensions::AddInfrastructureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection EcommerceInformatica.Infrastructure.Extensions.ServiceCollectionExtensions::AddInfrastructureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+DA:18,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:29,0
+DA:30,0
+DA:32,0
+DA:33,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Infrastructure/Data/EcommerceDbContext.cs
+FN:14,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Category> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Categories()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Category> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Categories()
+DA:15,0
+FN:15,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Product> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Products()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Product> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Products()
+DA:16,0
+FN:16,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Brand> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Brands()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Brand> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Brands()
+DA:17,0
+FN:17,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Supplier> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Suppliers()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Supplier> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Suppliers()
+DA:18,0
+FN:18,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Person> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Persons()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Person> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Persons()
+DA:19,0
+FN:19,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.City> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Cities()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.City> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Cities()
+DA:20,0
+FN:20,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Province> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Provinces()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Province> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Provinces()
+DA:21,0
+FN:21,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Invoice> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Invoices()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.Invoice> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_Invoices()
+DA:22,0
+FN:22,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.InvoiceDetail> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_InvoiceDetails()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.InvoiceDetail> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_InvoiceDetails()
+DA:23,0
+FN:23,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.PaymentMethod> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_PaymentMethods()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<EcommerceInformatica.Domain.Entities.PaymentMethod> EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::get_PaymentMethods()
+DA:24,0
+FN:26,System.Void EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:27,0
+DA:28,0
+DA:31,0
+DA:32,0
+FN:10,System.Void EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<EcommerceInformatica.Infrastructure.Data.EcommerceDbContext>)
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Data.EcommerceDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<EcommerceInformatica.Infrastructure.Data.EcommerceDbContext>)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:17
+LH:0
+BRF:0
+BRH:0
+FNF:12
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Infrastructure/Data/Configurations/CategoryConfiguration.cs
+FN:12,System.Void EcommerceInformatica.Infrastructure.Data.Configurations.CategoryConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<EcommerceInformatica.Domain.Entities.Category>)
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Data.Configurations.CategoryConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<EcommerceInformatica.Domain.Entities.Category>)
+DA:13,0
+DA:14,0
+DA:16,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:36,0
+DA:37,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+LF:30
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Infrastructure/Data/Configurations/ProductConfiguration.cs
+FN:12,System.Void EcommerceInformatica.Infrastructure.Data.Configurations.ProductConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<EcommerceInformatica.Domain.Entities.Product>)
+FNDA:0,System.Void EcommerceInformatica.Infrastructure.Data.Configurations.ProductConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<EcommerceInformatica.Domain.Entities.Product>)
+DA:13,0
+DA:14,0
+DA:16,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+LF:46
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/Services/CategoryService.cs
+FN:18,System.Void EcommerceInformatica.Application.Services.CategoryService::.ctor(EcommerceInformatica.Domain.Interfaces.Repositories.ICategoryRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Application.Services.CategoryService>)
+FNDA:0,System.Void EcommerceInformatica.Application.Services.CategoryService::.ctor(EcommerceInformatica.Domain.Interfaces.Repositories.ICategoryRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Application.Services.CategoryService>)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+FN:59,System.Void EcommerceInformatica.Application.Services.CategoryService/<CreateAsync>d__6::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.CategoryService/<CreateAsync>d__6::MoveNext()
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:74,0
+FN:97,System.Void EcommerceInformatica.Application.Services.CategoryService/<DeleteAsync>d__8::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.CategoryService/<DeleteAsync>d__8::MoveNext()
+DA:98,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+FN:29,System.Void EcommerceInformatica.Application.Services.CategoryService/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.CategoryService/<GetAllAsync>d__4::MoveNext()
+DA:30,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:42,0
+FN:44,System.Void EcommerceInformatica.Application.Services.CategoryService/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.CategoryService/<GetByIdAsync>d__5::MoveNext()
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+BRDA:50,214,0,0
+BRDA:50,214,1,0
+FN:111,System.Void EcommerceInformatica.Application.Services.CategoryService/<SearchAsync>d__9::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.CategoryService/<SearchAsync>d__9::MoveNext()
+DA:112,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,0
+FN:76,System.Void EcommerceInformatica.Application.Services.CategoryService/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.CategoryService/<UpdateAsync>d__7::MoveNext()
+DA:77,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+BRDA:83,251,0,0
+BRDA:83,251,1,0
+LF:77
+LH:0
+BRF:4
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/Services/ProductService.cs
+FN:18,System.Void EcommerceInformatica.Application.Services.ProductService::.ctor(EcommerceInformatica.Domain.Interfaces.Repositories.IProductRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Application.Services.ProductService>)
+FNDA:0,System.Void EcommerceInformatica.Application.Services.ProductService::.ctor(EcommerceInformatica.Domain.Interfaces.Repositories.IProductRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Application.Services.ProductService>)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+FN:59,System.Void EcommerceInformatica.Application.Services.ProductService/<CreateAsync>d__6::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.ProductService/<CreateAsync>d__6::MoveNext()
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:74,0
+FN:97,System.Void EcommerceInformatica.Application.Services.ProductService/<DeleteAsync>d__8::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.ProductService/<DeleteAsync>d__8::MoveNext()
+DA:98,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+FN:29,System.Void EcommerceInformatica.Application.Services.ProductService/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.ProductService/<GetAllAsync>d__4::MoveNext()
+DA:30,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:42,0
+FN:126,System.Void EcommerceInformatica.Application.Services.ProductService/<GetByCategoryAsync>d__10::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.ProductService/<GetByCategoryAsync>d__10::MoveNext()
+DA:127,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:139,0
+FN:44,System.Void EcommerceInformatica.Application.Services.ProductService/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.ProductService/<GetByIdAsync>d__5::MoveNext()
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+BRDA:50,214,0,0
+BRDA:50,214,1,0
+FN:111,System.Void EcommerceInformatica.Application.Services.ProductService/<SearchAsync>d__9::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.ProductService/<SearchAsync>d__9::MoveNext()
+DA:112,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,0
+FN:76,System.Void EcommerceInformatica.Application.Services.ProductService/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Application.Services.ProductService/<UpdateAsync>d__7::MoveNext()
+DA:77,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+BRDA:83,251,0,0
+BRDA:83,251,1,0
+LF:87
+LH:0
+BRF:4
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/Mappings/MappingProfile.cs
+FN:11,System.Void EcommerceInformatica.Application.Mappings.MappingProfile::.ctor()
+FNDA:0,System.Void EcommerceInformatica.Application.Mappings.MappingProfile::.ctor()
+DA:12,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+LF:30
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/Extensions/ServiceCollectionExtensions.cs
+FN:12,Microsoft.Extensions.DependencyInjection.IServiceCollection EcommerceInformatica.Application.Extensions.ServiceCollectionExtensions::AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection EcommerceInformatica.Application.Extensions.ServiceCollectionExtensions::AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:13,0
+DA:15,0
+DA:18,0
+DA:19,0
+DA:21,0
+DA:22,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/DTOs/BrandDto.cs
+FN:7,System.Int32 EcommerceInformatica.Application.DTOs.BrandDto::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.BrandDto::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Application.DTOs.BrandDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.BrandDto::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Application.DTOs.BrandDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.BrandDto::get_Description()
+DA:10,0
+FN:10,System.Boolean EcommerceInformatica.Application.DTOs.BrandDto::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Application.DTOs.BrandDto::get_IsActive()
+DA:11,0
+FN:11,System.DateTime EcommerceInformatica.Application.DTOs.BrandDto::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Application.DTOs.BrandDto::get_CreatedDate()
+DA:12,0
+FN:19,System.String EcommerceInformatica.Application.DTOs.BrandCreateDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.BrandCreateDto::get_Name()
+DA:20,0
+FN:20,System.String EcommerceInformatica.Application.DTOs.BrandCreateDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.BrandCreateDto::get_Description()
+DA:21,0
+FN:21,System.String EcommerceInformatica.Application.DTOs.BrandCreateDto::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.BrandCreateDto::get_CreatedBy()
+DA:22,0
+FN:29,System.String EcommerceInformatica.Application.DTOs.BrandUpdateDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.BrandUpdateDto::get_Name()
+DA:30,0
+FN:30,System.String EcommerceInformatica.Application.DTOs.BrandUpdateDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.BrandUpdateDto::get_Description()
+DA:31,0
+FN:31,System.Boolean EcommerceInformatica.Application.DTOs.BrandUpdateDto::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Application.DTOs.BrandUpdateDto::get_IsActive()
+DA:32,0
+FN:32,System.String EcommerceInformatica.Application.DTOs.BrandUpdateDto::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.BrandUpdateDto::get_ModifiedBy()
+DA:33,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:12
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/DTOs/CategoryDto.cs
+FN:7,System.Int32 EcommerceInformatica.Application.DTOs.CategoryDto::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.CategoryDto::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Application.DTOs.CategoryDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.CategoryDto::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Application.DTOs.CategoryDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.CategoryDto::get_Description()
+DA:10,0
+FN:10,System.Boolean EcommerceInformatica.Application.DTOs.CategoryDto::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Application.DTOs.CategoryDto::get_IsActive()
+DA:11,0
+FN:11,System.DateTime EcommerceInformatica.Application.DTOs.CategoryDto::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Application.DTOs.CategoryDto::get_CreatedDate()
+DA:12,0
+FN:19,System.String EcommerceInformatica.Application.DTOs.CategoryCreateDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.CategoryCreateDto::get_Name()
+DA:20,0
+FN:20,System.String EcommerceInformatica.Application.DTOs.CategoryCreateDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.CategoryCreateDto::get_Description()
+DA:21,0
+FN:21,System.String EcommerceInformatica.Application.DTOs.CategoryCreateDto::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.CategoryCreateDto::get_CreatedBy()
+DA:22,0
+FN:29,System.String EcommerceInformatica.Application.DTOs.CategoryUpdateDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.CategoryUpdateDto::get_Name()
+DA:30,0
+FN:30,System.String EcommerceInformatica.Application.DTOs.CategoryUpdateDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.CategoryUpdateDto::get_Description()
+DA:31,0
+FN:31,System.Boolean EcommerceInformatica.Application.DTOs.CategoryUpdateDto::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Application.DTOs.CategoryUpdateDto::get_IsActive()
+DA:32,0
+FN:32,System.String EcommerceInformatica.Application.DTOs.CategoryUpdateDto::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.CategoryUpdateDto::get_ModifiedBy()
+DA:33,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:12
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/DTOs/ProductDto.cs
+FN:7,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_Description()
+DA:10,0
+FN:10,System.Decimal EcommerceInformatica.Application.DTOs.ProductDto::get_UnitPrice()
+FNDA:0,System.Decimal EcommerceInformatica.Application.DTOs.ProductDto::get_UnitPrice()
+DA:11,0
+FN:11,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_Stock()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_Stock()
+DA:12,0
+FN:12,System.Boolean EcommerceInformatica.Application.DTOs.ProductDto::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Application.DTOs.ProductDto::get_IsActive()
+DA:13,0
+FN:13,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_CategoryId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_CategoryId()
+DA:14,0
+FN:14,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_CategoryName()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_CategoryName()
+DA:15,0
+FN:15,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_BrandId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_BrandId()
+DA:16,0
+FN:16,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_BrandName()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_BrandName()
+DA:17,0
+FN:17,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_SupplierId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductDto::get_SupplierId()
+DA:18,0
+FN:18,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_SupplierName()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductDto::get_SupplierName()
+DA:19,0
+FN:19,System.DateTime EcommerceInformatica.Application.DTOs.ProductDto::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Application.DTOs.ProductDto::get_CreatedDate()
+DA:20,0
+FN:27,System.String EcommerceInformatica.Application.DTOs.ProductCreateDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductCreateDto::get_Name()
+DA:28,0
+FN:28,System.String EcommerceInformatica.Application.DTOs.ProductCreateDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductCreateDto::get_Description()
+DA:29,0
+FN:29,System.Decimal EcommerceInformatica.Application.DTOs.ProductCreateDto::get_UnitPrice()
+FNDA:0,System.Decimal EcommerceInformatica.Application.DTOs.ProductCreateDto::get_UnitPrice()
+DA:30,0
+FN:30,System.Int32 EcommerceInformatica.Application.DTOs.ProductCreateDto::get_Stock()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductCreateDto::get_Stock()
+DA:31,0
+FN:31,System.Int32 EcommerceInformatica.Application.DTOs.ProductCreateDto::get_CategoryId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductCreateDto::get_CategoryId()
+DA:32,0
+FN:32,System.Int32 EcommerceInformatica.Application.DTOs.ProductCreateDto::get_BrandId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductCreateDto::get_BrandId()
+DA:33,0
+FN:33,System.Int32 EcommerceInformatica.Application.DTOs.ProductCreateDto::get_SupplierId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductCreateDto::get_SupplierId()
+DA:34,0
+FN:34,System.String EcommerceInformatica.Application.DTOs.ProductCreateDto::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductCreateDto::get_CreatedBy()
+DA:35,0
+FN:42,System.String EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_Name()
+DA:43,0
+FN:43,System.String EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_Description()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_Description()
+DA:44,0
+FN:44,System.Decimal EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_UnitPrice()
+FNDA:0,System.Decimal EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_UnitPrice()
+DA:45,0
+FN:45,System.Int32 EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_Stock()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_Stock()
+DA:46,0
+FN:46,System.Boolean EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_IsActive()
+DA:47,0
+FN:47,System.Int32 EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_CategoryId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_CategoryId()
+DA:48,0
+FN:48,System.Int32 EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_BrandId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_BrandId()
+DA:49,0
+FN:49,System.Int32 EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_SupplierId()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_SupplierId()
+DA:50,0
+FN:50,System.String EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.ProductUpdateDto::get_ModifiedBy()
+DA:51,0
+LF:30
+LH:0
+BRF:0
+BRH:0
+FNF:30
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/DTOs/SupplierDto.cs
+FN:7,System.Int32 EcommerceInformatica.Application.DTOs.SupplierDto::get_Id()
+FNDA:0,System.Int32 EcommerceInformatica.Application.DTOs.SupplierDto::get_Id()
+DA:8,0
+FN:8,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Name()
+DA:9,0
+FN:9,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Email()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Email()
+DA:10,0
+FN:10,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Phone()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Phone()
+DA:11,0
+FN:11,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Address()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Address()
+DA:12,0
+FN:12,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_City()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_City()
+DA:13,0
+FN:13,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Province()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierDto::get_Province()
+DA:14,0
+FN:14,System.Boolean EcommerceInformatica.Application.DTOs.SupplierDto::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Application.DTOs.SupplierDto::get_IsActive()
+DA:15,0
+FN:15,System.DateTime EcommerceInformatica.Application.DTOs.SupplierDto::get_CreatedDate()
+FNDA:0,System.DateTime EcommerceInformatica.Application.DTOs.SupplierDto::get_CreatedDate()
+DA:16,0
+FN:23,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Name()
+DA:24,0
+FN:24,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Email()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Email()
+DA:25,0
+FN:25,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Phone()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Phone()
+DA:26,0
+FN:26,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Address()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Address()
+DA:27,0
+FN:27,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_City()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_City()
+DA:28,0
+FN:28,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Province()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_Province()
+DA:29,0
+FN:29,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_CreatedBy()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierCreateDto::get_CreatedBy()
+DA:30,0
+FN:37,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Name()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Name()
+DA:38,0
+FN:38,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Email()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Email()
+DA:39,0
+FN:39,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Phone()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Phone()
+DA:40,0
+FN:40,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Address()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Address()
+DA:41,0
+FN:41,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_City()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_City()
+DA:42,0
+FN:42,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Province()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_Province()
+DA:43,0
+FN:43,System.Boolean EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_IsActive()
+FNDA:0,System.Boolean EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_IsActive()
+DA:44,0
+FN:44,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_ModifiedBy()
+FNDA:0,System.String EcommerceInformatica.Application.DTOs.SupplierUpdateDto::get_ModifiedBy()
+DA:45,0
+LF:24
+LH:0
+BRF:0
+BRH:0
+FNF:24
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Program.cs
+FN:4,System.Void Program::<Main>$(System.String[])
+FNDA:0,System.Void Program::<Main>$(System.String[])
+DA:5,0
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:15,0
+DA:18,0
+DA:21,0
+DA:24,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:36,0
+DA:38,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:50,0
+DA:52,0
+DA:54,0
+DA:56,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:68,0
+DA:69,0
+DA:70,0
+BRDA:41,294,0,0
+BRDA:41,294,1,0
+LF:42
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Index.cshtml.cs
+FN:14,System.Void EcommerceInformatica.Web.Pages.IndexModel::OnGet()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.IndexModel::OnGet()
+DA:15,0
+DA:16,0
+DA:17,0
+FN:8,System.Void EcommerceInformatica.Web.Pages.IndexModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Web.Pages.IndexModel>)
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.IndexModel::.ctor(Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Web.Pages.IndexModel>)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Index.cshtml
+FN:3,System.Void EcommerceInformatica.Web.Pages.Pages_Index/<ExecuteAsync>d__11::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Pages_Index/<ExecuteAsync>d__11::MoveNext()
+DA:4,0
+BRDA:4,420,0,0
+BRDA:4,420,1,0
+BRDA:4,934,0,0
+BRDA:4,934,1,0
+LF:1
+LH:0
+BRF:4
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/_ViewStart.cshtml
+FN:1,System.Void EcommerceInformatica.Web.Pages.Pages__ViewStart/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Pages__ViewStart/<ExecuteAsync>d__0::MoveNext()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Products/Index.cshtml.cs
+FN:18,System.Collections.Generic.IEnumerable`1<EcommerceInformatica.Application.DTOs.ProductDto> EcommerceInformatica.Web.Pages.Products.IndexModel::get_Products()
+FNDA:0,System.Collections.Generic.IEnumerable`1<EcommerceInformatica.Application.DTOs.ProductDto> EcommerceInformatica.Web.Pages.Products.IndexModel::get_Products()
+DA:19,0
+FN:21,System.String EcommerceInformatica.Web.Pages.Products.IndexModel::get_SearchTerm()
+FNDA:0,System.String EcommerceInformatica.Web.Pages.Products.IndexModel::get_SearchTerm()
+DA:22,0
+FN:12,System.Void EcommerceInformatica.Web.Pages.Products.IndexModel::.ctor(EcommerceInformatica.Domain.Interfaces.Services.IProductService,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Web.Pages.Products.IndexModel>)
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Products.IndexModel::.ctor(EcommerceInformatica.Domain.Interfaces.Services.IProductService,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Web.Pages.Products.IndexModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:24,System.Void EcommerceInformatica.Web.Pages.Products.IndexModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Products.IndexModel/<OnGetAsync>d__11::MoveNext()
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+BRDA:28,57,0,0
+BRDA:28,57,1,0
+LF:25
+LH:0
+BRF:2
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Products/Index.cshtml
+FN:3,System.Void EcommerceInformatica.Web.Pages.Products.Pages_Products_Index/<ExecuteAsync>d__19::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Products.Pages_Products_Index/<ExecuteAsync>d__19::MoveNext()
+DA:4,0
+DA:24,0
+DA:25,0
+DA:39,0
+DA:40,0
+DA:54,0
+DA:57,0
+DA:59,0
+DA:61,0
+BRDA:4,449,0,0
+BRDA:4,449,1,0
+BRDA:4,1013,0,0
+BRDA:4,1013,1,0
+BRDA:24,1214,0,0
+BRDA:24,1214,1,0
+BRDA:24,1244,0,0
+BRDA:39,3856,1,0
+BRDA:40,1636,0,0
+BRDA:40,1636,1,0
+BRDA:40,1855,0,0
+BRDA:40,1855,1,0
+BRDA:40,2209,0,0
+BRDA:40,2209,1,0
+BRDA:40,2576,0,0
+BRDA:40,2576,1,0
+BRDA:40,2930,0,0
+BRDA:40,2930,1,0
+BRDA:40,3297,0,0
+BRDA:40,3297,1,0
+BRDA:40,3651,0,0
+BRDA:40,3651,1,0
+BRDA:39,3856,0,0
+BRDA:24,1244,1,0
+LF:9
+LH:0
+BRF:24
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Categories/Create.cshtml.cs
+FN:20,EcommerceInformatica.Web.Pages.Categories.CreateModel/InputModel EcommerceInformatica.Web.Pages.Categories.CreateModel::get_Input()
+FNDA:0,EcommerceInformatica.Web.Pages.Categories.CreateModel/InputModel EcommerceInformatica.Web.Pages.Categories.CreateModel::get_Input()
+DA:21,0
+FN:33,System.Void EcommerceInformatica.Web.Pages.Categories.CreateModel::OnGet()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Categories.CreateModel::OnGet()
+DA:34,0
+DA:35,0
+FN:13,System.Void EcommerceInformatica.Web.Pages.Categories.CreateModel::.ctor(EcommerceInformatica.Domain.Interfaces.Services.ICategoryService,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Web.Pages.Categories.CreateModel>)
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Categories.CreateModel::.ctor(EcommerceInformatica.Domain.Interfaces.Services.ICategoryService,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Web.Pages.Categories.CreateModel>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:26,System.String EcommerceInformatica.Web.Pages.Categories.CreateModel/InputModel::get_Name()
+FNDA:0,System.String EcommerceInformatica.Web.Pages.Categories.CreateModel/InputModel::get_Name()
+DA:27,0
+FN:29,System.String EcommerceInformatica.Web.Pages.Categories.CreateModel/InputModel::get_Description()
+FNDA:0,System.String EcommerceInformatica.Web.Pages.Categories.CreateModel/InputModel::get_Description()
+DA:30,0
+FN:37,System.Void EcommerceInformatica.Web.Pages.Categories.CreateModel/<OnPostAsync>d__9::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Categories.CreateModel/<OnPostAsync>d__9::MoveNext()
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:53,0
+DA:54,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:62,0
+BRDA:39,36,0,0
+BRDA:39,36,1,0
+LF:29
+LH:0
+BRF:2
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Categories/Index.cshtml.cs
+FN:17,System.Collections.Generic.IEnumerable`1<EcommerceInformatica.Application.DTOs.CategoryDto> EcommerceInformatica.Web.Pages.Categories.IndexModel::get_Categories()
+FNDA:0,System.Collections.Generic.IEnumerable`1<EcommerceInformatica.Application.DTOs.CategoryDto> EcommerceInformatica.Web.Pages.Categories.IndexModel::get_Categories()
+DA:18,0
+FN:11,System.Void EcommerceInformatica.Web.Pages.Categories.IndexModel::.ctor(EcommerceInformatica.Domain.Interfaces.Services.ICategoryService,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Web.Pages.Categories.IndexModel>)
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Categories.IndexModel::.ctor(EcommerceInformatica.Domain.Interfaces.Services.ICategoryService,Microsoft.Extensions.Logging.ILogger`1<EcommerceInformatica.Web.Pages.Categories.IndexModel>)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:20,System.Void EcommerceInformatica.Web.Pages.Categories.IndexModel/<OnGetAsync>d__7::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Categories.IndexModel/<OnGetAsync>d__7::MoveNext()
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+LF:17
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Categories/Create.cshtml
+FN:3,System.Void EcommerceInformatica.Web.Pages.Categories.Pages_Categories_Create/<ExecuteAsync>d__23::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Categories.Pages_Categories_Create/<ExecuteAsync>d__23::MoveNext()
+DA:4,0
+BRDA:4,425,0,0
+BRDA:4,425,1,0
+LF:1
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Categories/Index.cshtml
+FN:3,System.Void EcommerceInformatica.Web.Pages.Categories.Pages_Categories_Index/<ExecuteAsync>d__15::MoveNext()
+FNDA:0,System.Void EcommerceInformatica.Web.Pages.Categories.Pages_Categories_Index/<ExecuteAsync>d__15::MoveNext()
+DA:4,0
+DA:13,0
+DA:14,0
+DA:26,0
+DA:27,0
+DA:39,0
+DA:42,0
+DA:44,0
+DA:46,0
+BRDA:4,431,0,0
+BRDA:4,431,1,0
+BRDA:13,632,0,0
+BRDA:13,632,1,0
+BRDA:13,662,0,0
+BRDA:26,3188,1,0
+BRDA:27,915,0,0
+BRDA:27,915,1,0
+BRDA:27,1188,0,0
+BRDA:27,1188,1,0
+BRDA:27,1542,0,0
+BRDA:27,1542,1,0
+BRDA:27,1909,0,0
+BRDA:27,1909,1,0
+BRDA:27,2263,0,0
+BRDA:27,2263,1,0
+BRDA:27,2630,0,0
+BRDA:27,2630,1,0
+BRDA:27,2984,0,0
+BRDA:27,2984,1,0
+BRDA:26,3188,0,0
+BRDA:13,662,1,0
+LF:9
+LH:0
+BRF:22
+BRH:0
+FNF:1
+FNH:0
+end_of_record

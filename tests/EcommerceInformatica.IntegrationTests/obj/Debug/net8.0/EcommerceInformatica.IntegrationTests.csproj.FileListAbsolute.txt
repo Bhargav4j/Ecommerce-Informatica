@@ -470,3 +470,4 @@
 /modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/tests/EcommerceInformatica.IntegrationTests/obj/Debug/net8.0/EcommerceInformatica.IntegrationTests.pdb
 /modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/tests/EcommerceInformatica.IntegrationTests/obj/Debug/net8.0/EcommerceInformatica.IntegrationTests.genruntimeconfig.cache
 /modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/tests/EcommerceInformatica.IntegrationTests/obj/Debug/net8.0/ref/EcommerceInformatica.IntegrationTests.dll
+/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/tests/EcommerceInformatica.IntegrationTests/bin/Debug/net8.0/CoverletSourceRootsMapping_EcommerceInformatica.IntegrationTests

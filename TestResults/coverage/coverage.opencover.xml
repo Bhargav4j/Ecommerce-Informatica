@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="834" visitedSequencePoints="0" numBranchPoints="70" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="120" minCyclomaticComplexity="34" visitedClasses="0" numClasses="74" visitedMethods="0" numMethods="268" />
   <Modules>
-    <Module hash="FCD679F4-9636-40BC-928D-C0FF7A6C0680">
+    <Module hash="F3036C35-EE61-453F-A0D9-4F953BE7EF1F">
       <ModulePath>EcommerceInformatica.Domain.dll</ModulePath>
-      <ModuleTime>2026-01-06T01:45:26</ModuleTime>
+      <ModuleTime>2026-01-07T05:32:34</ModuleTime>
       <ModuleName>EcommerceInformatica.Domain</ModuleName>
       <Files>
         <File uid="1" fullPath="/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Domain/Entities/Brand.cs" />
@@ -1401,9 +1401,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="E20A5437-AA80-4EE5-B64C-1A19857FB94C">
+    <Module hash="7B250A4D-569A-4496-8036-11099FC80DFB">
       <ModulePath>EcommerceInformatica.Infrastructure.dll</ModulePath>
-      <ModuleTime>2026-01-06T01:45:26</ModuleTime>
+      <ModuleTime>2026-01-07T05:32:34</ModuleTime>
       <ModuleName>EcommerceInformatica.Infrastructure</ModuleName>
       <Files>
         <File uid="11" fullPath="/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Infrastructure/Repositories/CategoryRepository.cs" />
@@ -2163,9 +2163,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="5E76B683-FDD2-411C-9942-1022C7B4083B">
+    <Module hash="BBFA39C1-2D09-42C8-A290-A64028AFC422">
       <ModulePath>EcommerceInformatica.Application.dll</ModulePath>
-      <ModuleTime>2026-01-06T01:45:26</ModuleTime>
+      <ModuleTime>2026-01-07T05:32:34</ModuleTime>
       <ModuleName>EcommerceInformatica.Application</ModuleName>
       <Files>
         <File uid="17" fullPath="/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Application/Services/CategoryService.cs" />
@@ -3594,9 +3594,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="C650C0A9-D6A9-473B-8D11-9F6AB43D1E24">
+    <Module hash="DB40F0E9-4495-4FD0-AEBE-07209F518309">
       <ModulePath>EcommerceInformatica.Web.dll</ModulePath>
-      <ModuleTime>2026-01-06T01:45:26</ModuleTime>
+      <ModuleTime>2026-01-07T05:32:34</ModuleTime>
       <ModuleName>EcommerceInformatica.Web</ModuleName>
       <Files>
         <File uid="25" fullPath="/modernize-data/studio-data/TNT1001/APP2772/transformed-code/907/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Program.cs" />

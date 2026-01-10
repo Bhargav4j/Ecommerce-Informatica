@@ -1,0 +1,73 @@
+@page
+@model Ecommerce.Web.Pages.Categories.CreateModel
+@{
+    ViewData["Title"] = "Create Category";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2><i class="bi bi-plus-circle"></i> Create New Category</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Category.CategoryName" class="form-label"></label>
+                            <input asp-for="Category.CategoryName" class="form-control" />
+                            <span asp-validation-for="Category.CategoryName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Category.Description" class="form-label"></label>
+                            <textarea asp-for="Category.Description" class="form-control" rows="4"></textarea>
+                            <span asp-validation-for="Category.Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Category.PictureFile" class="form-label"></label>
+                            <input asp-for="Category.PictureFile" class="form-control" type="file" accept="image/*" />
+                            <span asp-validation-for="Category.PictureFile" class="text-danger"></span>
+                            <div class="form-text">Optional: Upload a category image (JPG, PNG, GIF)</div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="bi bi-save"></i> Create Category
+                                </button>
+                                <a asp-page="Index" class="btn btn-secondary">
+                                    <i class="bi bi-x-circle"></i> Cancel
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-info-circle"></i> Information</h5>
+                    <p class="card-text">Create a new category to organize your products.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle text-success"></i> Category name is required</li>
+                        <li><i class="bi bi-check-circle text-success"></i> Description is optional</li>
+                        <li><i class="bi bi-check-circle text-success"></i> Picture is optional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

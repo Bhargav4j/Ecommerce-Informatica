@@ -1,0 +1,9 @@
+global using Xunit;
+global using FluentAssertions;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;
+global using Ecommerce.Domain.Entities;
+global using Ecommerce.Domain.Interfaces;
+global using Ecommerce.Infrastructure.Data;
+global using Ecommerce.Infrastructure.Repositories;
+global using Microsoft.Extensions.Logging;

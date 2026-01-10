@@ -1,0 +1,152 @@
+@page "{id:int}"
+@model Ecommerce.Web.Pages.Products.EditModel
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>
+                <i class="bi bi-pencil"></i> Edit Product
+            </h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Product.ProductId" />
+                        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Product.ProductName" class="form-label"></label>
+                                <input asp-for="Product.ProductName" class="form-control" />
+                                <span asp-validation-for="Product.ProductName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Product.CategoryId" class="form-label"></label>
+                                <select asp-for="Product.CategoryId" class="form-select">
+                                    <option value="">-- Select Category --</option>
+                                    @foreach (var category in Model.Categories)
+                                    {
+                                        <option value="@category.CategoryId">@category.CategoryName</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Product.SupplierId" class="form-label"></label>
+                                <select asp-for="Product.SupplierId" class="form-select">
+                                    <option value="">-- Select Supplier --</option>
+                                    @foreach (var supplier in Model.Suppliers)
+                                    {
+                                        <option value="@supplier.SupplierId">@supplier.CompanyName</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="Product.SupplierId" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Product.BrandId" class="form-label"></label>
+                                <select asp-for="Product.BrandId" class="form-select">
+                                    <option value="">-- Select Brand (Optional) --</option>
+                                    @foreach (var brand in Model.Brands)
+                                    {
+                                        <option value="@brand.BrandId">@brand.BrandName</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="Product.BrandId" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Product.QuantityPerUnit" class="form-label"></label>
+                                <input asp-for="Product.QuantityPerUnit" class="form-control" />
+                                <span asp-validation-for="Product.QuantityPerUnit" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label asp-for="Product.UnitPrice" class="form-label"></label>
+                                <input asp-for="Product.UnitPrice" class="form-control" step="0.01" />
+                                <span asp-validation-for="Product.UnitPrice" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <label asp-for="Product.UnitsInStock" class="form-label"></label>
+                                <input asp-for="Product.UnitsInStock" class="form-control" />
+                                <span asp-validation-for="Product.UnitsInStock" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <label asp-for="Product.UnitsOnOrder" class="form-label"></label>
+                                <input asp-for="Product.UnitsOnOrder" class="form-control" />
+                                <span asp-validation-for="Product.UnitsOnOrder" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <label asp-for="Product.ReorderLevel" class="form-label"></label>
+                                <input asp-for="Product.ReorderLevel" class="form-control" />
+                                <span asp-validation-for="Product.ReorderLevel" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <div class="form-check">
+                                    <input asp-for="Product.Discontinued" class="form-check-input" />
+                                    <label asp-for="Product.Discontinued" class="form-check-label"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="bi bi-save"></i> Save Changes
+                                </button>
+                                <a asp-page="Details" asp-route-id="@Model.Product.ProductId" class="btn btn-info">
+                                    <i class="bi bi-eye"></i> View Details
+                                </a>
+                                <a asp-page="Index" class="btn btn-secondary">
+                                    <i class="bi bi-x-circle"></i> Cancel
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="bi bi-info-circle"></i> Edit Information
+                    </h5>
+                    <p class="card-text">
+                        Update the product information as needed.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><strong>Product ID:</strong> @Model.Product.ProductId</li>
+                        <li><strong>Last Modified:</strong> @DateTime.Now.ToString("g")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

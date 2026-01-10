@@ -1,0 +1,170 @@
+@page "{id:int}"
+@model Ecommerce.Web.Pages.Products.DetailsModel
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <h2>
+                <i class="bi bi-eye"></i> Product Details
+            </h2>
+        </div>
+        <div class="col-md-4 text-end">
+            <a asp-page="Edit" asp-route-id="@Model.Product.ProductId" class="btn btn-warning">
+                <i class="bi bi-pencil"></i> Edit
+            </a>
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">@Model.Product.ProductName</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-hash"></i> Product ID:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            @Model.Product.ProductId
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-tags"></i> Category:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            <span class="badge bg-info">@Model.Product.CategoryName</span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-truck"></i> Supplier:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            @Model.Product.SupplierName
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-bookmark-star"></i> Brand:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            @(Model.Product.BrandName ?? "N/A")
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-box"></i> Quantity Per Unit:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            @(Model.Product.QuantityPerUnit ?? "N/A")
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-currency-dollar"></i> Unit Price:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="text-success">@Model.Product.UnitPrice.ToString("C")</h5>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-box-seam"></i> Units In Stock:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            <span class="badge @(Model.Product.UnitsInStock > 0 ? "bg-success" : "bg-danger")">
+                                @Model.Product.UnitsInStock
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-hourglass-split"></i> Units On Order:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            @Model.Product.UnitsOnOrder
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-arrow-repeat"></i> Reorder Level:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            @Model.Product.ReorderLevel
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <strong><i class="bi bi-toggle-on"></i> Status:</strong>
+                        </div>
+                        <div class="col-md-8">
+                            @if (Model.Product.Discontinued)
+                            {
+                                <span class="badge bg-danger">Discontinued</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Active</span>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="bi bi-gear"></i> Actions
+                    </h5>
+                    <div class="d-grid gap-2">
+                        <a asp-page="Edit" asp-route-id="@Model.Product.ProductId" class="btn btn-warning">
+                            <i class="bi bi-pencil"></i> Edit Product
+                        </a>
+                        <a asp-page="Delete" asp-route-id="@Model.Product.ProductId" class="btn btn-danger">
+                            <i class="bi bi-trash"></i> Delete Product
+                        </a>
+                        <a asp-page="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            @if (Model.Product.UnitsInStock <= Model.Product.ReorderLevel)
+            {
+                <div class="card bg-warning text-dark mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="bi bi-exclamation-triangle"></i> Low Stock Alert
+                        </h5>
+                        <p class="card-text">
+                            This product has reached or fallen below its reorder level. Consider restocking.
+                        </p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

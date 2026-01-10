@@ -1,0 +1,113 @@
+@page
+@model Ecommerce.Web.Pages.Suppliers.CreateModel
+@{
+    ViewData["Title"] = "Create Supplier";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2><i class="bi bi-plus-circle"></i> Create New Supplier</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="card-body">
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Supplier.CompanyName" class="form-label"></label>
+                                <input asp-for="Supplier.CompanyName" class="form-control" />
+                                <span asp-validation-for="Supplier.CompanyName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Supplier.ContactName" class="form-label"></label>
+                                <input asp-for="Supplier.ContactName" class="form-control" />
+                                <span asp-validation-for="Supplier.ContactName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Supplier.ContactTitle" class="form-label"></label>
+                                <input asp-for="Supplier.ContactTitle" class="form-control" />
+                                <span asp-validation-for="Supplier.ContactTitle" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Supplier.Phone" class="form-label"></label>
+                                <input asp-for="Supplier.Phone" class="form-control" />
+                                <span asp-validation-for="Supplier.Phone" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Supplier.Address" class="form-label"></label>
+                                <input asp-for="Supplier.Address" class="form-control" />
+                                <span asp-validation-for="Supplier.Address" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="Supplier.City" class="form-label"></label>
+                                <input asp-for="Supplier.City" class="form-control" />
+                                <span asp-validation-for="Supplier.City" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="Supplier.Region" class="form-label"></label>
+                                <input asp-for="Supplier.Region" class="form-control" />
+                                <span asp-validation-for="Supplier.Region" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="Supplier.PostalCode" class="form-label"></label>
+                                <input asp-for="Supplier.PostalCode" class="form-control" />
+                                <span asp-validation-for="Supplier.PostalCode" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Supplier.Country" class="form-label"></label>
+                                <input asp-for="Supplier.Country" class="form-control" />
+                                <span asp-validation-for="Supplier.Country" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Supplier.Fax" class="form-label"></label>
+                                <input asp-for="Supplier.Fax" class="form-control" />
+                                <span asp-validation-for="Supplier.Fax" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Supplier.HomePage" class="form-label"></label>
+                                <input asp-for="Supplier.HomePage" class="form-control" type="url" />
+                                <span asp-validation-for="Supplier.HomePage" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-warning">
+                                    <i class="bi bi-save"></i> Create Supplier
+                                </button>
+                                <a asp-page="Index" class="btn btn-secondary">
+                                    <i class="bi bi-x-circle"></i> Cancel
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

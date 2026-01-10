@@ -1,0 +1,119 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ecommerce.Web
+build_property.RootNamespace = Ecommerce.Web
+build_property.ProjectDir = /modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Brands/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmRzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Brands/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmRzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Brands/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmRzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Brands/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmRzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Brands/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmRzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Shared/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Shared/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Suppliers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXJzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2872/transformed-code/972/studio-workspace/ecommerce1001/src/Ecommerce.Web/Pages/Suppliers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

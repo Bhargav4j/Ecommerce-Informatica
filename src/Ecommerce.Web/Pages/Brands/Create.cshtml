@@ -1,0 +1,58 @@
+@page
+@model Ecommerce.Web.Pages.Brands.CreateModel
+@{
+    ViewData["Title"] = "Create Brand";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2><i class="bi bi-plus-circle"></i> Create New Brand</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Brand.BrandName" class="form-label"></label>
+                            <input asp-for="Brand.BrandName" class="form-control" />
+                            <span asp-validation-for="Brand.BrandName" class="text-danger"></span>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-info">
+                                    <i class="bi bi-save"></i> Create Brand
+                                </button>
+                                <a asp-page="Index" class="btn btn-secondary">
+                                    <i class="bi bi-x-circle"></i> Cancel
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-info-circle"></i> Information</h5>
+                    <p class="card-text">Create a new brand for your products.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle text-success"></i> Brand name is required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

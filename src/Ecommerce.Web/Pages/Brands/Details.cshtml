@@ -1,0 +1,61 @@
+@page "{id:int}"
+@model Ecommerce.Web.Pages.Brands.DetailsModel
+@{
+    ViewData["Title"] = "Brand Details";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <h2><i class="bi bi-eye"></i> Brand Details</h2>
+        </div>
+        <div class="col-md-4 text-end">
+            <a asp-page="Edit" asp-route-id="@Model.Brand.BrandId" class="btn btn-warning">
+                <i class="bi bi-pencil"></i> Edit
+            </a>
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0">@Model.Brand.BrandName</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-4"><strong><i class="bi bi-hash"></i> Brand ID:</strong></div>
+                        <div class="col-md-8">@Model.Brand.BrandId</div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4"><strong><i class="bi bi-bookmark-star"></i> Brand Name:</strong></div>
+                        <div class="col-md-8">@Model.Brand.BrandName</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-gear"></i> Actions</h5>
+                    <div class="d-grid gap-2">
+                        <a asp-page="Edit" asp-route-id="@Model.Brand.BrandId" class="btn btn-warning">
+                            <i class="bi bi-pencil"></i> Edit Brand
+                        </a>
+                        <a asp-page="Delete" asp-route-id="@Model.Brand.BrandId" class="btn btn-danger">
+                            <i class="bi bi-trash"></i> Delete Brand
+                        </a>
+                        <a asp-page="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

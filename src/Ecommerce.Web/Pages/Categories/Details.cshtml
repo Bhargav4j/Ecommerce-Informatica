@@ -1,0 +1,71 @@
+@page "{id:int}"
+@model Ecommerce.Web.Pages.Categories.DetailsModel
+@{
+    ViewData["Title"] = "Category Details";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <h2><i class="bi bi-eye"></i> Category Details</h2>
+        </div>
+        <div class="col-md-4 text-end">
+            <a asp-page="Edit" asp-route-id="@Model.Category.CategoryId" class="btn btn-warning">
+                <i class="bi bi-pencil"></i> Edit
+            </a>
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">@Model.Category.CategoryName</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-4"><strong><i class="bi bi-hash"></i> Category ID:</strong></div>
+                        <div class="col-md-8">@Model.Category.CategoryId</div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4"><strong><i class="bi bi-card-text"></i> Description:</strong></div>
+                        <div class="col-md-8">@(Model.Category.Description ?? "N/A")</div>
+                    </div>
+
+                    @if (Model.Category.Picture != null)
+                    {
+                        <div class="row mb-3">
+                            <div class="col-md-4"><strong><i class="bi bi-image"></i> Picture:</strong></div>
+                            <div class="col-md-8">
+                                <span class="badge bg-info">@Model.Category.Picture.Length bytes</span>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-gear"></i> Actions</h5>
+                    <div class="d-grid gap-2">
+                        <a asp-page="Edit" asp-route-id="@Model.Category.CategoryId" class="btn btn-warning">
+                            <i class="bi bi-pencil"></i> Edit Category
+                        </a>
+                        <a asp-page="Delete" asp-route-id="@Model.Category.CategoryId" class="btn btn-danger">
+                            <i class="bi bi-trash"></i> Delete Category
+                        </a>
+                        <a asp-page="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

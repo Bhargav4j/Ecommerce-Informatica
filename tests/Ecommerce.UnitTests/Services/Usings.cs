@@ -1,0 +1,10 @@
+global using Xunit;
+global using Moq;
+global using FluentAssertions;
+global using AutoMapper;
+global using Microsoft.Extensions.Logging;
+global using Ecommerce.Application.DTOs;
+global using Ecommerce.Application.Services;
+global using Ecommerce.Domain.Entities;
+global using Ecommerce.Domain.Interfaces;
+global using Ecommerce.Domain.Interfaces.Repositories;

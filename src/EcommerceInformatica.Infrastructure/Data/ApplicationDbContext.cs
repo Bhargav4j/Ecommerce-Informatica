@@ -26,6 +26,12 @@ public class ApplicationDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
+        // Set default schema for PostgreSQL
+        modelBuilder.HasDefaultSchema("public");
+
+        // Configure PostgreSQL extensions
+        modelBuilder.HasPostgresExtension("uuid-ossp");
+
         // Apply all entity configurations
         modelBuilder.ApplyConfiguration(new ProductConfiguration());
         modelBuilder.ApplyConfiguration(new CategoryConfiguration());

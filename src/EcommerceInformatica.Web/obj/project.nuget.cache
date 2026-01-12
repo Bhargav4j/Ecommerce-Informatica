@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CL/DsgPftMM=",
+  "dgSpecHash": "ydqbzYXYRzU=",
   "success": true,
   "projectFilePath": "/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Web/EcommerceInformatica.Web.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/home/studioai/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/studioai/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
+    "/home/studioai/.nuget/packages/efcore.namingconventions/8.0.0/efcore.namingconventions.8.0.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/studioai/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.0/microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
@@ -58,6 +59,8 @@
     "/home/studioai/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/home/studioai/.nuget/packages/npgsql/8.0.0/npgsql.8.0.0.nupkg.sha512",
+    "/home/studioai/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.0/npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
     "/home/studioai/.nuget/packages/serilog.aspnetcore/8.0.0/serilog.aspnetcore.8.0.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/serilog.extensions.hosting/8.0.0/serilog.extensions.hosting.8.0.0.nupkg.sha512",

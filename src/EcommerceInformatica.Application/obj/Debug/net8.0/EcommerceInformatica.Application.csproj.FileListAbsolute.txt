@@ -1,0 +1,16 @@
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/EcommerceInformatica.Application.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/EcommerceInformatica.Application.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/EcommerceInformatica.Application.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/EcommerceInformatica.Application.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/EcommerceInformatica.Application.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/EcommerceInformatica.Application.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/bin/Debug/net8.0/EcommerceInformatica.Application.deps.json
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/bin/Debug/net8.0/EcommerceInformatica.Application.dll
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/bin/Debug/net8.0/EcommerceInformatica.Application.pdb
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/bin/Debug/net8.0/EcommerceInformatica.Domain.dll
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/bin/Debug/net8.0/EcommerceInformatica.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/Ecommerc.8FB91038.Up2Date
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/EcommerceInformatica.Application.dll
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/refint/EcommerceInformatica.Application.dll
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/EcommerceInformatica.Application.pdb
+/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Application/obj/Debug/net8.0/ref/EcommerceInformatica.Application.dll

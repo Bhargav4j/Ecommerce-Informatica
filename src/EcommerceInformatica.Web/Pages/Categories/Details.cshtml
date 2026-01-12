@@ -1,0 +1,66 @@
+@page
+@model EcommerceInformatica.Web.Pages.Categories.DetailsModel
+@{
+    ViewData["Title"] = "Category Details";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Category Details</h1>
+        <hr />
+    </div>
+</div>
+
+@if (Model.Category != null)
+{
+    <div class="row">
+        <div class="col-md-8">
+            <dl class="row">
+                <dt class="col-sm-3">Name</dt>
+                <dd class="col-sm-9">@Model.Category.Name</dd>
+
+                <dt class="col-sm-3">Description</dt>
+                <dd class="col-sm-9">@Model.Category.Description</dd>
+
+                <dt class="col-sm-3">Status</dt>
+                <dd class="col-sm-9">
+                    @if (Model.Category.IsActive)
+                    {
+                        <span class="badge bg-success">Active</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Inactive</span>
+                    }
+                </dd>
+
+                <dt class="col-sm-3">Created Date</dt>
+                <dd class="col-sm-9">@Model.Category.CreatedDate.ToString("g")</dd>
+
+                <dt class="col-sm-3">Created By</dt>
+                <dd class="col-sm-9">@Model.Category.CreatedBy</dd>
+
+                @if (Model.Category.ModifiedDate.HasValue)
+                {
+                    <dt class="col-sm-3">Modified Date</dt>
+                    <dd class="col-sm-9">@Model.Category.ModifiedDate.Value.ToString("g")</dd>
+
+                    <dt class="col-sm-3">Modified By</dt>
+                    <dd class="col-sm-9">@Model.Category.ModifiedBy</dd>
+                }
+            </dl>
+
+            <div class="mt-3">
+                <a asp-page="Edit" asp-route-id="@Model.Category.Id" class="btn btn-warning">Edit</a>
+                <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        Category not found.
+    </div>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+}

@@ -1,0 +1,41 @@
+@page
+@model EcommerceInformatica.Web.Pages.Brands.CreateModel
+@{
+    ViewData["Title"] = "Create Brand";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Create Brand</h1>
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="Brand.Name" class="form-label"></label>
+                <input asp-for="Brand.Name" class="form-control" />
+                <span asp-validation-for="Brand.Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Brand.Description" class="form-label"></label>
+                <textarea asp-for="Brand.Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Brand.Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

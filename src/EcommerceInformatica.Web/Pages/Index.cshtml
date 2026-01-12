@@ -1,0 +1,40 @@
+@page
+@model EcommerceInformatica.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to E-commerce Informatica</h1>
+    <p class="lead">Manage your e-commerce platform with ease</p>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Products</h5>
+                    <p class="card-text">Manage product inventory, pricing, and details</p>
+                    <a asp-page="/Products/Index" class="btn btn-primary">View Products</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Categories</h5>
+                    <p class="card-text">Organize products into categories</p>
+                    <a asp-page="/Categories/Index" class="btn btn-primary">View Categories</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Brands</h5>
+                    <p class="card-text">Manage product brands</p>
+                    <a asp-page="/Brands/Index" class="btn btn-primary">View Brands</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

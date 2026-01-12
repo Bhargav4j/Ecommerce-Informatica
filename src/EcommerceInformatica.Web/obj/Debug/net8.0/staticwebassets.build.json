@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "PwNXVEA076BsT21/OTb3Y75DAwSWTyjYUJeWA/PwMk8=",
+  "Source": "EcommerceInformatica.Web",
+  "BasePath": "_content/EcommerceInformatica.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EcommerceInformatica.Web/wwwroot",
+      "Source": "EcommerceInformatica.Web",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Web/wwwroot/",
+      "BasePath": "_content/EcommerceInformatica.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Web/wwwroot/css/site.css",
+      "SourceId": "EcommerceInformatica.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Web/wwwroot/",
+      "BasePath": "_content/EcommerceInformatica.Web",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Web/wwwroot/js/site.js",
+      "SourceId": "EcommerceInformatica.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP2889/transformed-code/979/studio-workspace/EcommerceInformatica1201/src/EcommerceInformatica.Web/wwwroot/",
+      "BasePath": "_content/EcommerceInformatica.Web",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
+}

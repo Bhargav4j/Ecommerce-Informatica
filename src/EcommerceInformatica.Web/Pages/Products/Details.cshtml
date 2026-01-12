@@ -1,0 +1,81 @@
+@page
+@model EcommerceInformatica.Web.Pages.Products.DetailsModel
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Product Details</h1>
+        <hr />
+    </div>
+</div>
+
+@if (Model.Product != null)
+{
+    <div class="row">
+        <div class="col-md-8">
+            <dl class="row">
+                <dt class="col-sm-3">Name</dt>
+                <dd class="col-sm-9">@Model.Product.Name</dd>
+
+                <dt class="col-sm-3">Description</dt>
+                <dd class="col-sm-9">@Model.Product.Description</dd>
+
+                <dt class="col-sm-3">Unit Price</dt>
+                <dd class="col-sm-9">@Model.Product.UnitPrice.ToString("C")</dd>
+
+                <dt class="col-sm-3">Stock</dt>
+                <dd class="col-sm-9">@Model.Product.Stock</dd>
+
+                <dt class="col-sm-3">Category</dt>
+                <dd class="col-sm-9">@Model.Product.CategoryName</dd>
+
+                <dt class="col-sm-3">Brand</dt>
+                <dd class="col-sm-9">@Model.Product.BrandName</dd>
+
+                <dt class="col-sm-3">Supplier</dt>
+                <dd class="col-sm-9">@Model.Product.SupplierName</dd>
+
+                <dt class="col-sm-3">Status</dt>
+                <dd class="col-sm-9">
+                    @if (Model.Product.IsActive)
+                    {
+                        <span class="badge bg-success">Active</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Inactive</span>
+                    }
+                </dd>
+
+                <dt class="col-sm-3">Created Date</dt>
+                <dd class="col-sm-9">@Model.Product.CreatedDate.ToString("g")</dd>
+
+                <dt class="col-sm-3">Created By</dt>
+                <dd class="col-sm-9">@Model.Product.CreatedBy</dd>
+
+                @if (Model.Product.ModifiedDate.HasValue)
+                {
+                    <dt class="col-sm-3">Modified Date</dt>
+                    <dd class="col-sm-9">@Model.Product.ModifiedDate.Value.ToString("g")</dd>
+
+                    <dt class="col-sm-3">Modified By</dt>
+                    <dd class="col-sm-9">@Model.Product.ModifiedBy</dd>
+                }
+            </dl>
+
+            <div class="mt-3">
+                <a asp-page="Edit" asp-route-id="@Model.Product.Id" class="btn btn-warning">Edit</a>
+                <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        Product not found.
+    </div>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+}

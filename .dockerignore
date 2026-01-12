@@ -1,0 +1,58 @@
+# Build artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+publish/
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*~
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Build logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+*.docx
+*.pdf
+
+# Database files
+*.sql
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp

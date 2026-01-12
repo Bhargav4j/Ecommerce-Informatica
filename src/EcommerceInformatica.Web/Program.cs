@@ -4,20 +4,32 @@ using EcommerceInformatica.Infrastructure.Data;
 using EcommerceInformatica.Application.Extensions;
 using EcommerceInformatica.Infrastructure.Extensions;
 
+// WebApplication.CreateBuilder(args) automatically includes environment variables in .NET 8.0
+// Environment variables can override appsettings.json values at runtime
+// Supported environment variables:
+// - ASPNETCORE_ENVIRONMENT: Set environment (Development, Staging, Production)
+// - ConnectionStrings__DefaultConnection: Override database connection string
+// - DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD: Override individual DB settings
+// - Logging__LogLevel__Default: Override logging level
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure Serilog
+// Logs are written to console only for container compatibility
+// Container platforms (Docker, Kubernetes) will capture console output for log aggregation
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .Enrich.FromLogContext()
     .WriteTo.Console()
-    .WriteTo.File("logs/ecommerce-informatica-.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
 builder.Host.UseSerilog();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+// Add health checks for container orchestration
+builder.Services.AddHealthChecks()
+    .AddDbContextCheck<ApplicationDbContext>();
 
 // Register DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -61,6 +73,9 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+// Map health check endpoints for container orchestration (Kubernetes, Docker, ECS)
+app.MapHealthChecks("/health");
 
 try
 {
